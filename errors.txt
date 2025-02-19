@@ -40,7 +40,7 @@ shutting-down = Layanan hotspot tutup
 # If user profile has limit of shared-users, then this error will be shown
 # after reaching this limit
 
-user-session-limit = Kode Voucher / User sedang aktif $(username)
+user-session-limit = User sedang aktif $(username)
 
 # license-session-limit
 # Depending on licence number of active hotspot clients is limited to
@@ -52,7 +52,7 @@ license-session-limit = Durasi voucher Anda sudah habis ($(error-orig))
 # If username looks like MAC address (12:34:56:78:9a:bc), but is not
 # a MAC address of this client, login is rejected
 
-wrong-mac-username = Kode Voucher / User tidak sesuai ($(username)): MAC address ini bukan milik Anda
+wrong-mac-username = User tidak sesuai ($(username)): MAC address ini bukan milik Anda
 
 # chap-missing
 # If http-chap login method is used, but hotspot program does not receive
@@ -72,19 +72,19 @@ chap-missing = web browser did not send challenge response (try again, enable Ja
 # has sent an error string with Access-Reject message, then it will
 # override this setting.
 
-invalid-username = Kode Voucher / User tidak sesuai, Masukkan kembali dengan benar.
+invalid-username = User tidak sesuai, Masukkan kembali dengan benar.
 
 # invalid-mac
 # Local users (on hotspot server) can be bound to some MAC address. If login
 # from different MAC is tried, this error message will be shown.
 
-invalid-mac = Kode Voucher / User $(username) tidak dapat diaktifkan dari MAC address ini.
+invalid-mac = User $(username) tidak dapat diaktifkan dari MAC address ini.
 
 # uptime-limit, traffic-limit
 # For local hotspot users in case if limits are reached
 
-uptime-limit = Kode Voucher / User $(username) sudah mencapai batas waktu
-traffic-limit = Kode Voucher / User $(username) sudah mencapai batas kuota
+uptime-limit = User $(username) sudah mencapai batas waktu
+traffic-limit = User $(username) sudah mencapai batas kuota
 
 # radius-timeout
 # User is authenticated by RADIUS server, but no response is received from it,
